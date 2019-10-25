@@ -9,6 +9,19 @@ Foo -> Bar : request
 Bar -> Foo : response
 @enduml
 ```
-# その他
-GitBookやPegmetite等との連携も検証する
 
+```puml
+@startuml
+Hoge -> Fuga : request
+Fuga -> Hoge : response
+@enduml
+```
+
+```plantuml
+@startuml
+Client -> Server : request
+Server -> Client : response
+@enduml
+```
+# その他
+GitBookやPegmetiteやMarkdown-Preview-Enhancement等との連携も検証する
